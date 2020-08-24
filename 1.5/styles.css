@@ -1,0 +1,22 @@
+body{
+
+}
+
+.father{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 200vh;
+    flex-wrap: wrap;
+}
+
+.child {
+    height: 200px;
+    width: 200px;
+    background: peru;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

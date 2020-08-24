@@ -1,0 +1,28 @@
+body{
+
+}
+
+.father{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.child {
+    height: 200px;
+    background: peru;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child:nth-child(2){
+    background-color: black;
+    flex-grow: 2;
+}
+
+.child:nth-child(3){
+
+}

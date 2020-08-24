@@ -1,0 +1,14 @@
+body{
+
+}
+
+.wrapper{
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: peru;
+    color: white;
+}

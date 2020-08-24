@@ -1,0 +1,40 @@
+body{
+
+}
+
+.father{
+    display: flex;
+    flex-direction: column;
+    /* Main Axis */
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.child {
+    height: 200px;
+    width: 200px;
+    background: peru;
+    color: white;
+    font-size: 60px;
+}
+
+/* using order is useful when you cannot modify the html */
+.child:nth-child(1){
+    order: 1;
+    align-self: center;
+}
+
+.child:nth-child(2){
+    order: 2;
+}
+
+
+/* .child:nth-child(2){
+    align-self: center;
+}
+
+.child:nth-child(3){
+    align-self: flex-end;
+} */
+
+/* Need height in the parent node to use align-self */

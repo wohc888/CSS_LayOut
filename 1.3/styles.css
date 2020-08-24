@@ -1,0 +1,19 @@
+body{
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    /* Main Axis */
+    justify-content: space-around;
+    /* Cross Axis */
+    align-items: stretch;
+    height: 300vh;
+}
+
+.box {
+    height: 200px;
+    background: peru;
+    color: white;
+}

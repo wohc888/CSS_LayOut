@@ -1,6 +1,15 @@
 .box{
     background: blue;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 2px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    color: white;
+}
+
+.box:nth-child(2){
+    margin-left: 20px;
+}
+
+.box:last-child{
+    margin-left: 20px;
 }
