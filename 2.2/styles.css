@@ -1,0 +1,19 @@
+body{
+
+}
+
+.father{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+}
+
+.child {
+    background: peru;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

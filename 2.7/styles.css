@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    gap: 5px;
+    height: 50vh;
+    grid-template: 
+        "header header header header " 1fr
+        "content content content nav" 2fr 
+        "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
+}
+
+.header{
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+.content{
+    background-color: blue;
+    grid-area: content;
+}
+
+.nav{
+    background-color: blueviolet;
+    grid-area: nav;
+}
+
+.footer{
+    background-color: brown;
+    grid-area: footer;
+}
+
+/*2.6 was about line naming. dont really think its necessary*/

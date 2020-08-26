@@ -1,0 +1,23 @@
+body{
+
+}
+
+.father{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex-basis: 30%;
+    background: peru;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child:nth-child(4){
+    margin-top: 10px;
+}
